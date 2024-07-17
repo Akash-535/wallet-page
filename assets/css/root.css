@@ -1,5 +1,5 @@
 :root {
-  /* font-size  */
+  /* font-size */
   --fs-xsm: 10px;
   --fs-sm: 12px;
   --fs-md: 14px;
@@ -11,11 +11,73 @@
   --fc-black: #000;
   --fc-white: #fff;
   --fc-grey: #666666;
-  --fc-gray: #cccccc;
   --fc-off-white: #f0f0f0;
   --fc-light-grey: #c0c0c0;
   --fc-grey-f8: #f8f8f8;
   --fc-grey-fa: #fafafa;
+
+  /*======border*/
+}
+/*===================font-color=============*/
+.font-black {
+  color: var(--fc-black);
+}
+.font-white {
+  color: var(--fc-white);
+}
+.font-grey {
+  color: var(--fc-grey);
+}
+.font-off-white {
+  color: var(--fc-off-white);
+}
+.font-light-grey {
+  color: var(--fc-light-grey);
+}
+.font-grey-f8 {
+  color: var(--fc-grey-f8);
+}
+.font-grey-fa {
+  color: var(--fc-grey-fa);
+}
+/*========================font-size================*/
+.font-size-sm {
+  font-size: var(--fs-sm);
+}
+.font-size-md {
+  font-size: var(--fs-md);
+}
+
+.font-size-lg {
+  font-size: var(--fs-lg);
+}
+
+.font-size-2lg {
+  font-size: var(--fs-2lg);
+}
+
+.font-size-xl {
+  font-size: var(--fs-xl);
+}
+
+.font-size-xxl {
+  font-size: var(--fs-xxl);
+}
+
+.font-size-xsm {
+  font-size: var(--fs-xsm);
+}
+/*============border===========*/
+.border-1px {
+  border: 1px solid var(--fc-black);
+}
+.border-1px-light-grey {
+  border: 1px solid var(--fc-light-grey);
+}
+.border-right {
+  height: 49px;
+  width: 1px;
+  border: 1px solid #cccccc;
 }
 
 @media (max-width: 992px) {
@@ -23,11 +85,5 @@
     --fs-md: 10px;
     --fs-lg: 12px;
     --fs-xl: 24px;
-  }
-}
-
-@media (min-width: 992px) {
-  :root {
-    --fs-xl: 30px;
   }
 }
