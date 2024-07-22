@@ -12,11 +12,11 @@ body {
 }
 
 .feed:hover {
-  text-decoration: underline black !important;
+  -webkit-text-stroke: 1px;
   color: var(--fc-black);
 }
 .wallet:hover {
-  text-decoration: underline black !important;
+  -webkit-text-stroke: 1px;
   color: var(--fc-black);
 }
 .form {
